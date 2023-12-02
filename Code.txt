@@ -1,0 +1,23 @@
+'''This Code is used to find sqaure of a number'''
+
+# This is a simple Python code sample
+
+import time
+
+def calculate_square():
+
+    # Get user input for a number
+
+    user_input = input("Enter a number: ")
+
+    # Convert the input to a float (in case the user enters a decimal)
+    number = float(user_input)
+
+    # Calculate the square of the number
+    square = number ** 2
+
+    # Print the result
+    print(f"The square of {number} is: {square}")
+
+# Call the function to execute the code
+calculate_square()
